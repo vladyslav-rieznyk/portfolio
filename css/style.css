@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Limelight&family=Updock&display=swap');
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  background-color: rgb(197, 197, 197);
+}
+
+/* === Header & Nav === */
+header {
+  display: flex;
+  background-color: white;
+  font-family: "Limelight", sans-serif;
+}
+header img {
+  margin-left: 2%;
+  height: 100px;
+  width: 100px;
+}
+
+header nav{
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  margin-right: 2%;
+  align-items: center;
+}
+header nav ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 60px;
+}
+header ul li {
+  font-size: 18px;
+
+}
+header a {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.7s ease;
+  
+}
+
+header a:hover {
+  color: rgb(70, 70, 70);
+  font-size: 20px;
+}
+header a span{
+  transition: 1s ease;
+  border-radius: 50%;
+}
+header a span:hover {
+  color: rgb(255, 253, 164);
+}
+header a::after{
+    color: black;
+}
+
+.home{
+  display: flex;
+  justify-content: center;
+}
+.main{
+  display: inline-block;
+  margin-top: 20px;
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+}
+header li span{
+  display: inline-block;
+}
